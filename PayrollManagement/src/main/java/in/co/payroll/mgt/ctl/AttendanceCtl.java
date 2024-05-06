@@ -50,7 +50,7 @@ public class AttendanceCtl extends BaseCtl {
 	public String display(@RequestParam(required = false) Long id, @ModelAttribute("form") AttendanceForm form,
 			Model model) {
 
-		System.out.println("HI");
+		System.out.println("HIdfgd");
 		
 		if (form.getId() > 0) {
 			form.populate(attendanceServiceInt.findByPK(id));
